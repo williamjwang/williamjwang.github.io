@@ -111,17 +111,12 @@ div h3
   font-size: 30px;
 }
 
-div h4
-{
-  margin-left: 10%;
-  margin-right: 10%;
-  font-size: 25px;
-}
+div h4,
 div p
 {
-  font-size: 25px;
   margin-left: 10%;
   margin-right: 10%;
+  font-size: 25px;
 }
 
 .refa
@@ -133,4 +128,41 @@ div p
 .project-p
 {
   font-size: 20px;
+}
+
+
+.content-table
+{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 5px 5px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+
+.content-table thead tr
+{
+  background-color: #000000;
+  color: #ffffff;
+  text-align:center;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td
+{
+  padding: 12px 0px 12px 0px;
+  text-align:center;
+}
+
+.content-table tbody tr
+{
+  border-bottom: thin solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even)
+{
+  background-color: #f3f3f3;
 }
