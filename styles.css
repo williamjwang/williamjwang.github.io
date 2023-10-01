@@ -15,16 +15,6 @@ p {
   padding: 0%;
 }
 
-/* .accordion-button:after {
-  display: none;
-} */
-
-/* .accordion-button:focus {
-  box-shadow: none;
-  border: none;
-  border-color: rgba(0,0,0,.125);
-} */
-
 .center {
   display: block;
   margin-left: auto;
