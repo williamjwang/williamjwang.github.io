@@ -17,12 +17,9 @@
 				<img src="William Wang Profile Picture.jpg" class="figure-img img-fluid rounded-5 center" width="175">
 				<figcaption class="figure-caption text-center">Hey thats me!</figcaption>
 			</figure>
-			<!-- <div class="col">
-				<img src="William Wang Profile Picture.jpg" class="rounded-5 center" width="175">
-			</div> -->
 		</div>
 		<!-- Using a d-flex (not bootstap's grids using row) and flex-wrap works, but the transition is not as smooth -->
-		<div class="d-flex justify-content-center flex-wrap py-2">
+		<div class="d-flex justify-content-center flex-wrap pb-2">
 			<a href="mailto:williamwang2468@gmail.com">
 				<span class="bi bi-envelope px-1">
 					<i>williamwang2468@gmail.com</i>
@@ -138,37 +135,52 @@
 				<div class="card">
 					<h2 class="card-header">Projects / Publications</h2>
 					<div class="card-body">
-						<div>
-							<h4>3-Dimensional Lattice Paths</h4>
-							<p>
-								Integer sequences exist everywhere, and not only can they describe patterns found in mathematics (e.g. the famous Fibonacci sequence), but can also describe natural phenomena!
-							</p>
-							<p>
-								The purpose of this project was to find integer sequences enumerating the number of paths from (0,0,0) to (n,n,n) using various sets of acceptable steps.
-								Another goal, if possible, was to examine the long-term/statistical behavior of such integer sequences.
-								This problem is related to a similar but more famous problem in 2 dimensions - namely, how can we can from (0,0) to (x,y) if we can only move up 1 spot or to the right 1 spot at a time?
-								<i>Hint: related to Pascal's triangle and binomial coefficients, see Abstract below</i>
-							</p>
-							<p>
-								As the project leader, my responsibilities included being the leading the research effort, organizing and maintaining our research, and working with editors of the Online Encyclopedia of Integer Sequences (OEIS) to peer-review, get accepted, and publish the integer sequences that we found to be interesting.
-								Throughout the duration of the project, the team found/examined integer sequences that were already in the OEIS as well those that were not. Some of the integer sequences that the team found were already published in the OEIS, but did not already have our interpretation. Two of our publications were new interpretations to previously authored sequences, and one was a brand new integer sequence, enumerating a pattern never seen before.
-							</p>
-							See
-							<a href="3d_lattice_paths_writeup.pdf">Abstract</a>, or publications  <a href="https://oeis.org/A339390">A339390</a>, <a href="https://oeis.org/A002898">A002898</a>, <a href="https://oeis.org/A208425">A208425</a>
-							
-							<hr>
-
-							<h4>Comparison of Advanced Quadrature Techniques</h4>
-							<p>
-								Quadrature, synonymous with numerical integration, is the process of determining the area of a particular figure or region.
-								However, it may not always be possible to find an exact area, which is why techniques meant to estimate the area have been created!
-							</p>
-							<p>
-								The purpose of the project is to examine Gaussian quadrature, Romberg's method, and tanh-sinh quadrature, and compare their application and performance for various functions.
-							</p>
-							See
-							<a href="Comparison_Of_Advanced_Quadrature_Techniques.pdf">Project</a>, or
-							<a href="https://github.com/williamjwang/Advanced-Quadrature">Matlab Code</a>
+						<div class="row">
+							<div class="col-12">
+								<h4>3-Dimensional Lattice Paths</h4>
+								<p>
+									Integer sequences exist everywhere, and not only can they describe patterns found in mathematics (e.g. the famous Fibonacci sequence), but can also describe natural phenomena!
+								</p>
+								<p>
+									The purpose of this project was to find integer sequences enumerating the number of paths from (0,0,0) to (n,n,n) using various sets of acceptable steps.
+									Another goal, if possible, was to examine the long-term/statistical behavior of such integer sequences.
+									This problem is related to a similar but more famous problem in 2 dimensions - namely, how can we can from (0,0) to (x,y) if we can only move up 1 spot or to the right 1 spot at a time?
+									<i>Hint: related to Pascal's triangle and binomial coefficients, see Abstract below</i>
+								</p>
+								<p>
+									As the project leader, my responsibilities included being the leading the research effort, organizing and maintaining our research, and working with editors of the Online Encyclopedia of Integer Sequences (OEIS) to peer-review, get accepted, and publish the integer sequences that we found to be interesting.
+									Throughout the duration of the project, the team found/examined integer sequences that were already in the OEIS as well those that were not. Some of the integer sequences that the team found were already published in the OEIS, but did not already have our interpretation. Two of our publications were new interpretations to previously authored sequences, and one was a brand new integer sequence, enumerating a pattern never seen before.
+								</p>
+							</div>
+							<div class="col-12">
+								See
+								<div class="btn-group" role="group" aria-label="Publication Links">
+									<a class="btn btn-sm btn-outline-secondary pb-xs-2" href="3d_lattice_paths_writeup.pdf" role="button">Abstract</a>
+									<a class="btn btn-sm btn-outline-secondary" href="https://oeis.org/A339390" role="button">A339390</a>
+									<a class="btn btn-sm btn-outline-secondary" href="https://oeis.org/A002898" role="button">A002898</a>
+									<a class="btn btn-sm btn-outline-secondary" href="https://oeis.org/A208425" role="button">A208425</a>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col">
+								<h4>Comparison of Advanced Quadrature Techniques</h4>
+								<p>
+									Quadrature, synonymous with numerical integration, is the process of determining the area of a particular figure or region.
+									However, it may not always be possible to find an exact area, which is why techniques meant to estimate the area have been created!
+								</p>
+								<p>
+									The purpose of the project is to examine Gaussian quadrature, Romberg's method, and tanh-sinh quadrature, and compare their application and performance for various functions.
+								</p>
+								<div>
+									See
+									<div class="btn-group" role="group" aria-label="Basic example">
+										<a class="btn btn-sm btn-outline-secondary" href="Comparison_Of_Advanced_Quadrature_Techniques.pdf" role="button">Abstract</a>
+										<a class="btn btn-sm btn-outline-secondary" href="https://github.com/williamjwang/Advanced-Quadrature" role="button">Project Repository</a>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
